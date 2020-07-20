@@ -1,8 +1,9 @@
 import React from "react";
-import Employees from "./components/Employees.jsx";
+import HomePage from "./components/HomePage.jsx";
+import "./App.css";
 
 function App() {
-  return <Employees />;
+  return <HomePage />;
 }
 
 export default App;
