@@ -1,7 +1,7 @@
 import React from "react";
 import "./employee.css";
 
-function FriendCard(props) {
+function Employee(props) {
   return (
     <div className="card">
       <div className="img-container">
@@ -21,10 +21,16 @@ function FriendCard(props) {
           <li>
             <strong>Location:</strong> {props.location}
           </li>
+          <li>
+            <strong>Email:</strong> {props.email}
+          </li>
+          <li>
+            <strong>Phone:</strong> {props.phone}
+          </li>
         </ul>
       </div>
     </div>
   );
 }
 
-export default FriendCard;
+export default Employee;
