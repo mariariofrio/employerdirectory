@@ -28,7 +28,7 @@
         "image":
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTH6khX64TX7FspX0mZ59fNPWoph-j4pw4rA&usqp=CAU",
         "occupation": "Doctor",
-        "location": "California",
+        "location": "Los Angeles",
         "email": "ecuador@mycompany.com",
         "phone": [1254545698]
     },
@@ -72,7 +72,7 @@
         "image":
      "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3FPweuZD_MIPN5vRkcUKWpWL-O8LGp3n1YA&usqp=CAU",
         "occupation": "Developer",
-        "location": "Texas",
+        "location": "Austin",
         "email": "ecuador@mycompany.com", 
         "phone": [1254567859]
     }
