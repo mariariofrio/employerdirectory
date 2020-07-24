@@ -1,4 +1,5 @@
 import React from "react";
+import "./filterbutton.css";
 
 class Counter extends React.Component {
     state = {
@@ -18,9 +19,9 @@ class Counter extends React.Component {
   
     render() {
       return (
-        <div className="card text-center">
-          <div className="card-header bg-primary text-white">
-            Please Select An Option!
+        <div className="container-sm ">
+          <div className="card-header bg-dark alert text-white">
+            Type Employee's Location!
           </div>
           <div className="container">
           <form className="form">
@@ -29,13 +30,13 @@ class Counter extends React.Component {
             name="location"
             onChange={this.handleInputChange}
             type="text"
-            placeholder="First Name"
+            placeholder="Location"
           />
           </form>
-            <button className="btn btn-primary" onClick={()=>this.props.function(this.state.location)}>
+            <button className="btn btn-info alert"  onClick={()=>this.props.function(this.state.location)}>
               Location
             </button>
-            <button className="btn btn-warning" onClick={()=>this.props.sorter()}>
+            <button className="btn btn-secondary alert" onClick={()=>this.props.sorter()}>
               Sort
             </button>
           </div>
